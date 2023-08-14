@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(11, 99, 11);
+    color: white;
+    text-align: center;
+}
+.container{
+    max-width: 60%;
+    margin: 0 auto;
+   
+}
+#heading{
+    color: yellow;
+    font-size: 9rem;
+    padding: 4rem;
+}
+#message-el{
+    font-size: 3rem;
+    font-family: 'Handjet', cursive;
+}
+.count{
+    padding: 3rem;
+    font-size: 2rem;
+}
+#take-home,
+#start-btn,
+#new-btn{
+    padding: 2rem;
+    font-weight: bolder;
+    font-size: 45px;
+    border-radius: 1rem;
+    width: 600px;
+    color: rgb(11, 99, 11);
+    background-color: yellow;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    
+}
+#player-el{
+    font-size: 3rem;
+    margin-top: 4px;
+    margin-bottom: 3rem;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: yellow;
+}
+.page{
+    text-decoration: none;
+    color: yellow;
+}
+.page:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+#title{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: yellow;
+}
+header{
+    background-color: rgb(6, 61, 6);
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns:auto auto;
+    padding: 4rem;
+    gap: 6rem;
+}
+.newgame,
+.room,
+.invite,
+.offline{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    box-shadow:  -10px 8px 12px #888888;
+}
+.maingame{
+    text-decoration: none;
+    color: white;
+}
+.image:hover{
+    transform: scale(1.1);
+    transition: 1s all ease-in-out;
+}
+span{
+    font-size: 2rem;
+}
+span:hover{
+    border-bottom: 3px solid black;
+}
+footer{
+    background-color: rgb(6, 61, 6);
+}
+.right{
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    font-size: 2rem;
+}
+.login_section{
+    background-image: url('https://images.unsplash.com/photo-1606559497615-e4787c3c75a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2FtYmxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem;
+    font-size: 3rem;
+}
+    
+.login_back span{
+    font-size: 3rem;
+    font-weight: 600;
+    
+  }
+  .while{
+    color: #f9f6ff;
+  }
+  .highlight{
+    color: darkred;
+}
+a{
+    text-decoration: none;
+}
+  .login_back p{
+    font-size: 30px;
+    max-width: 850px;
+    font-weight: 400;
+    color: #f9f6ff;
+  }
+  .login_back{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 900px;
+    padding: 6rem;
+  
+  }
+  .final{
+    color: white;
+  }
+  input{
+    padding: 1rem;
+    border: 3px solid orangered;
+    background-color: transparent;
+    color: #f9f6ff;
+    
+  }
+  .forgot_sec div{
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .forgot_sec p{
+    font-size: 40px;
+  }
+  .forgot_sec{
+    display: flex;
+    justify-content: space-between;
+  }
+  .enter button{
+    background-color: orangered;
+    color: #f9f6ff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .enter{
+    display: flex;
+  }
+  .forgot_sec div{
+    color:#f9f6ff;
+    cursor: pointer;
+  }
+  .forgot_sec div:hover{
+    color: orangered;
+  }
+@media screen and (max-width:450px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .grid{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  img{
+    width: 300px;
+  }
+  span{
+    font-size: 25px;
+  }
+  #title{
+    font-size: 20px;
+
+  }
+  .nav ul{
+    font-size: 10px;
+  }
+  .nav{
+    display: flex;
+    justify-content:space-between ;
+    max-width: 100%;
+  }
+  .right{
+    font-size: 25px;
+  }
+  #heading{
+    font-size: 60px;
+    text-align: center;
+  }
+  #start-btn,
+  #new-btn,
+  #take-home{
+    width: 400px;
+  }
+  #message-el{
+    font-size: 30px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .login_section{
+    margin: 0;
+    padding: 0;
+  }
+  .login_back span{
+    font-size: 1.5rem;
+  }
+  .login_back p{
+    font-size: 0.8rem;
+  }
+  .forgot_sec{
+    display: flex;
+   flex-direction: column;
+   gap: 1rem;
+  }
+  .forgot_sec input{
+    margin-left: 0;
+  }
+  .forgot_sec div{
+    font-size: 0.8rem;
+  }
+  .enter button{
+    font-size: 10px;
+    padding: 22px;
+    height: 20px;
+    width: 100px;
+  }
+  .enter button:hover{
+    background-color: transparent;
+    transition: all 1s ease-in-out;
+  }
+  input{
+    width: 300px;
+  }
+}
